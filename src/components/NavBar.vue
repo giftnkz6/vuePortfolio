@@ -40,4 +40,7 @@
     li{
         margin: 1.5rem;
     }
+    .navbar{
+        height: 3rem;
+    }
 </style>

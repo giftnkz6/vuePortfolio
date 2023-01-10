@@ -25,6 +25,9 @@
   text-align: center;
   color: #2c3e50;
   overflow: hidden;
+  background-image: url("https://i.postimg.cc/GtbPbhZS/Background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 *,::after,::before{
     padding: 0;
@@ -37,26 +40,28 @@ nav {
 } 
 
 nav a {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: blueviolet;
   text-decoration: none;
 }
 
 nav a.router-link-exact-active {
-  color: blue;
+  color: purple;
 }
 
 .wrapper{
-  background-color: white;
+  background-color: whitesmoke;
   width: 100vw;
+  height:fit-content;
+  overflow: hidden;
   margin-top: 1.7rem;
 }
 
 li{
   list-style: none;
 }
-/* ul{
+ul{
   display: flex;
-} */
+}
 
 </style>

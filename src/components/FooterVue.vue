@@ -4,10 +4,10 @@
             <div class="col">
                 <p>Copyright &copy; 2023</p>
             </div>
-            <div class="col">
+            <!-- <div class="col">
                 <p>314 Imam Haron Road,</p>
                 <p>Lansdowne</p>
-            </div>
+            </div> -->
             <div class="col">
                 <p>Social Media</p>
                 <ul>
@@ -29,9 +29,9 @@ export default {
 
 <style>
     .wrapper .row .col ul li{
-        margin: 1rem;
+        margin: .5rem;
         font-size: larger;
-        margin-left: 4rem;
+        margin-left: 8rem;
     }
     ul li #instagram{
     color: orangered;
@@ -39,4 +39,12 @@ export default {
     ul li #twitter{
     color:aqua;
     }
+    
+    /* @media screen and (max-width: 390px) {
+        .wrapper .row .col ul li{
+        margin: 5px;
+        font-size: large;
+        margin-left: 4rem;
+    }
+} */
 </style>

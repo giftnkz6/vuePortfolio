@@ -1,6 +1,6 @@
 <template>
-    <h2 class="scroll display-2">Contact</h2>
-    <div class="container w-75">
+    <h1 class="scroll display-2">Contact</h1>
+    <div class="container w-50">
         <div class="row">
             <div id="form" class="container justify-content-center">
                 <form class="form container mt-3" action="https://formspree.io/f/mrgdkjgy" method="POST">
@@ -46,3 +46,23 @@
         name: 'ContactView'
     }
 </script>
+
+<style scoped>
+    address{
+        color: white;
+    }
+    .form-floating #floatingTextarea{
+        height: 12rem
+    }
+    h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-shadow: 2px 1px white;
+    }
+    #form{
+        width: 35rem;
+        box-shadow: 0 0 25px #c1c1c1;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+</style>
