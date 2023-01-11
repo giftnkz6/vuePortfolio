@@ -4,6 +4,8 @@ import AboutView from '../views/AboutView.vue'
 import ContactView from '../views/ContactView.vue'
 import ResumeView from '../views/ResumeView.vue'
 import TestimonialView from '../views/TestimonialView.vue'
+import ProjectView from '../views/ProjectView.vue'
+
 
 const routes = [
   {
@@ -30,8 +32,12 @@ const routes = [
     path: '/testimonial',
     name: 'testimonial',
     component: TestimonialView
+  },
+  {
+    path: '/project',
+    name: 'project',
+    component: ProjectView
   }
-
 ]
 
 const router = createRouter({

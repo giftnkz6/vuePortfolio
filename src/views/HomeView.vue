@@ -28,7 +28,7 @@
         width: 20rem;
         border-radius: 50%;
         height: 20rem;
-        margin-top: 2rem;
+        margin-top: 6rem;
     }
     #home-text{
         margin-top: 8rem;
@@ -36,12 +36,13 @@
     /* h1,h5{
     
     } */
-    /* .container{
+    .container{
         width: 100vw;
         height: 32rem;
         overflow: hidden;
-        background-color: #3b64c9;
+        /* background-color: #3b64c9; */
+        box-shadow: 0 0 25px #c1c1c1;
         margin: auto;
         margin-bottom: 4rem;
-    } */
+    }
 </style>

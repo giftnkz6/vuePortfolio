@@ -1,32 +1,14 @@
 <template>
-    <div>
-        <h1>RESUME</h1>
-        <div class="resume-wrapper">
-            <p>On 16 April 2022 I got a Responsive Web Design certificate from FreeCodeCamp.<br>
-                Which covers HTML, CSS, Web design and Responsive Web.<br>
-            </p>
-        </div>
-        <div class="resume-wrapper">
-            <p>
-                In 2017 I was enrolled <br>for a Bsc in Computer Sciences at 
-                University Of Pretoria. I partially completed the degree due to some<br>
-                unforseen circurmstances and financial challenges.
-            </p>
-        </div>
-        
-        <div class="resume-wrapper">
-            <div>
-                <p>In 2015 I obtained my <br>matric certificate at Kwandebele Science<br> Combined School.
-                    I achieved a bachelors pass, with Pure Mathematics and Sciences beign one of the passed subjects.
-                </p>
-            </div>
-        </div>
-    </div>
+   <ResumeVue/>
 </template>
 
 <script>
+import ResumeVue from '@/components/ResumeVue.vue';
     export default{
-        name: 'ResumeView'
+        name: 'ResumeView',
+        components:{
+            ResumeVue
+        }
     }
 </script>
 
