@@ -12,7 +12,7 @@
                         <li><a href="#about"><i class="fa-solid fa-address-card fa-flip" style="--fa-animation-duration: 3s;"></i></a><router-link to="/about">About</router-link></li>
                         <li><a href="#resume"><i class="fa-solid fa-file fa-flip" style="--fa-animation-duration: 3s;"></i></a><router-link to="/resume">Resume</router-link></li>
                         <li><a href="#project"><i class="fa-solid fa-diagram-project fa-flip" style="--fa-animation-duration: 3s;"></i></a><router-link to="/project">Project</router-link></li>
-                        <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench fa-flip" style="--fa-animation-duration: 3s;"></i> Skills</a></li>
+                        <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench fa-flip" style="--fa-animation-duration: 3s;"></i></a><router-link to="/skills">Skills</router-link></li>
                         <li><a href="#testimonial"><i class="fa-sharp fa-solid fa-people-group fa-flip" style="--fa-animation-duration: 3s;"></i></a><router-link to="/testimonial">Testimonial</router-link></li>
                         <li><a href="#contact"><i class="fa-solid fa-phone fa-flip" style="--fa-animation-duration: 3s;"></i></a><router-link to="/contact">Contact</router-link></li>
                     </ul>

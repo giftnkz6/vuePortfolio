@@ -1,12 +1,40 @@
 <template>
     <div>
-        <h1>RESUME</h1>
+        <h1 class="display-1">RESUME</h1>
         <div v-for="info in resume" key="info">
             <div class="resume-wrapper">
                 <p>{{ info.information }}</p>
             </div>
         </div>
     </div>
+    <section id="skills" class="container-fluid rounded-4">
+            <h2 class="scroll display-2">Skills</h2>
+            <div id="contain" class="container ">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Default striped example" style="width: 95%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">95%</div>
+                  </div><br>
+                  <p>CSS</p>
+    
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Success striped example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                  </div><br>
+                  <p>Javascript</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-label="Info striped example" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div><br>
+                  <p>Bootstrap</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Warning striped example" style="width: 68%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">63%</div>
+                  </div><br>
+                  <p>C++</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-label="Danger striped example" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">65%</div>
+                  </div><br>
+
+
+            </div>
+        </section>
 </template>
 
 <script>
@@ -50,10 +78,28 @@
     margin:auto;
     margin-bottom: 3%;
     /* color: black; */
-    color: white;
+    color: blueviolet;
     animation-name: color-anim;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     /* background-color: white; */
+}
+p{
+    color: purple;
+}
+#skills{
+    margin-top: 5%;
+    margin-bottom: bottom;
+}
+#skills .container {
+    width: 40%;
+    background-color: white;
+}
+@media screen and (max-width: 680px){
+    #skills .container{
+        min-width: 15em;
+    }
+    
+
 }
 </style>

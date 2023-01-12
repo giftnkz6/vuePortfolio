@@ -15,7 +15,7 @@
 
                     </div>
                     <div class="form-floating mb-4">
-                        <input type="text" class="form-control" placeholder="Enter your email" id="floatingInput" required>
+                        <input type="email" class="form-control" placeholder="Enter your email" id="floatingInput" required>
                         <label for="floatingInput">Enter your email</label>
                     </div>
                     <div class="form-floating mb-4">
@@ -62,10 +62,11 @@
     }
     #form{
         width: 35rem;
-        box-shadow: 0 0 25px #c1c1c1;
+        box-shadow: 0 0 25px purple;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        background-color: black;
+        /* background-color: black; */
+        background-color: white;
     }
 
     @media screen and (max-width: 750px) {
@@ -77,6 +78,10 @@
     #form{
         min-width: 22rem;
     }
+}
+@media screen and (max-width: 300px) {
+    box-shadow{
+       display: none;
 }
 @media screen and (max-width: 530px) {
     #form{
@@ -98,5 +103,6 @@
     #form{
         min-width: 14rem;
     }
+}
 }
 </style>

@@ -67,6 +67,7 @@
         margin-top: 2rem;
         margin-bottom: 1rem;
         height: 515px;
+        box-shadow: 0 0 25px purple;
     }
     
     img{

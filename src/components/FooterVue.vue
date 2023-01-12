@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>Copyright &copy; 2022</p>
+        <p>Copyright &copy; 2023</p>
         <ul>
             <li><a id="linkedin" href="https://www.linkedin.com/in/gift-mahlangu-223262180/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
             <li><a id="facebook" href="https://www.facebook.com/gift.mahlangu.923" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
