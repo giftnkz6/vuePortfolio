@@ -1,5 +1,5 @@
 <template>
-    <h1>Testimonial</h1>
+    <h1>Testimonials</h1>
     <div class="testimonial-container">
         <div v-for="testimonial in testimonials" key="testimonial">
             <div class="card" style="width: 18rem;">
