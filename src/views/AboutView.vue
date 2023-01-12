@@ -1,34 +1,14 @@
 <template>
-    <section class="container" id="about">
-            <h2 class="scroll display-2">About</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-
-                        <figure id="about-container">
-                            <img class="image-about img-fluid rounded-4" src="https://i.postimg.cc/rsDxpqXC/Gift-Mahlangu.jpg6" alt="profile">
-                        </figure>
-
-                    </div>
-                    <div class="col">
-                        
-                        <div id="about-text" class="container">
-                            <h2>HELLO THERE!</h2>
-                            <p>My name is Gift Mahlangu, I am an aspiring software developer.
-                                I am currently enrolled in a 1 year program at Life Choices 
-                                Academy. I am passionate about tech and coding and I enjoy playing
-                                soccer and video games and I am a kind and respectful person.  
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <AboutVue/>
 </template>
 
 <script>
+import AboutVue from '@/components/AboutVue.vue'
 export default {
-    name: 'AboutView'
+    name: 'AboutView',
+    components:{
+        AboutVue
+    }
 }
 </script>
 

@@ -5,7 +5,7 @@ import ContactView from '../views/ContactView.vue'
 import ResumeView from '../views/ResumeView.vue'
 import TestimonialView from '../views/TestimonialView.vue'
 import ProjectView from '../views/ProjectView.vue'
-import SkillsView from '../views/SkillsView.vue'
+
 
 
 const routes = [
@@ -39,11 +39,6 @@ const routes = [
     name: 'project',
     component: ProjectView
   },
-  {
-    path: '/skill',
-    name: 'skill',
-    component: SkillsView
-  }
 ]
 
 const router = createRouter({

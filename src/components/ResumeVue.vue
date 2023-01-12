@@ -89,7 +89,7 @@ p{
 }
 #skills{
     margin-top: 5%;
-    margin-bottom: bottom;
+    margin-bottom: 5%;
 }
 #skills .container {
     width: 40%;

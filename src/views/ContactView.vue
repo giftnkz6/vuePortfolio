@@ -1,50 +1,14 @@
 <template>
-    <h1 class="scroll display-2">GET IN TOUCH</h1>
-    <div class="container w-50">
-        <div class="row">
-            <div id="form" class="container justify-content-center">
-                <form class="form container mt-3" action="https://formspree.io/f/mrgdkjgy" method="POST">
-                    <h1>Contact Me</h1>
-                    <div class="form-floating mb-4">
-                        <input type="text" class="form-control" name="name" placeholder="Enter your name" id="floatingInput" required>
-                        <label for="floatingInput">Enter your name</label>
-                    </div>
-                    <div class="form-floating mb-4">
-                        <input type="text" class="form-control" name="surname" placeholder="Enter your surname" id="floatingInput" required>
-                        <label for="floatingInput">Enter your surname</label>
-
-                    </div>
-                    <div class="form-floating mb-4">
-                        <input type="email" class="form-control" placeholder="Enter your email" id="floatingInput" required>
-                        <label for="floatingInput">Enter your email</label>
-                    </div>
-                    <div class="form-floating mb-4">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Leave us a message</label>
-                    </div>
-                    <div class="mb-4">
-                        <button class="btn btn-outline-info">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-        
-    <address>
-            
-        Written by Gift Mahlangu<br>
-        Visit me at:
-        Life Choices<br>
-        314 Imam Haron Road,<br> Lansdowne
-        South Africa
-        <br>
-    </address>
-        
+    <ContactVue/>
 </template>
 
 <script>
+    import ContactVue from '@/components/ContactVue.vue';
     export default{
-        name: 'ContactView'
+        name: 'ContactView',
+        components:{
+            ContactVue
+        }
     }
 </script>
 

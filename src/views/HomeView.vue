@@ -101,6 +101,14 @@ import HomeVue from '@/components/HomeVue.vue';
     animation-fill-mode: forwards;
     
 }
+
+@media screen and (width <= 767px) {
+    img{
+        margin-top: 2rem;
+    }
+    
+}
+
 @keyframes animations {
     0%   {top:-600px;}
     100% {top:0px;}

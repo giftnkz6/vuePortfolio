@@ -1,11 +1,11 @@
 <template>
     <h1>My Projects</h1>
-    <div class="container">
+     <!-- <div class="container">
         <div id="carouselExampleControls" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
                 <div v-for="project in projects" key="project" class="carousel-item active">
                     <div class="card" style="width: 18rem;">
-                        <img :src="project.image" class="d-block w-100" alt="...">
+                        <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title">{{ project.description }}</h5>
                             <a :href="project.github" class="btn btn-primary">Github</a><br><br>
@@ -23,7 +23,41 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>    
-    </div>
+    </div> -->
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active" v-for="project in firstProject" key="project">
+            <div class="card" style="width: 18rem;">
+                <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.description }}</h5>
+                    <a :href="project.github" class="btn btn-primary">Github</a><br><br>
+                    <a :href="project.netlify" class="btn btn-primary">Netlify</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" v-for="project in projects" key="project">
+            <div class="card" style="width: 18rem;">
+                <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.description }}</h5>
+                    <a :href="project.github" class="btn btn-primary">Github</a><br><br>
+                    <a :href="project.netlify" class="btn btn-primary">Netlify</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
 </template>
 
 <script>
@@ -31,6 +65,14 @@ export default {
     name: 'ProjectVue',
     data(){
         return{
+            firstProject:[{
+                id:1,
+                description:"E-commerce",
+                image:"https://i.postimg.cc/G3NksBKn/Screenshot-20230112-101713.png",
+                github: "https://github.com/giftnkz6/E-Commerce.git",
+                netlify: "https://giftsneakerhub.netlify.app"
+
+            }],
             projects:[
             {
                 id:1,

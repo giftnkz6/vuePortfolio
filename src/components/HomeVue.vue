@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-8 m-auto" id="home-animation">
                     <div class="home-img">
-                      <img id="home-image" src="https://i.postimg.cc/cHpHv6Cm/Home.jpg" class="img-fluid rounded-4" alt="Gift Profile">
+                      <img id="home-image" src="https://i.postimg.cc/cHpHv6Cm/Home.jpg" class="img-fluid rounded-4" alt="Gift Profile" loading="lazy">
 
                     </div>
 

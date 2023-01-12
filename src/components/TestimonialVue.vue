@@ -3,7 +3,7 @@
     <div class="testimonial-container">
         <div v-for="testimonial in testimonials" key="testimonial">
             <div class="card" style="width: 18rem;">
-                <img :src="testimonial.image" class="card-img-top" alt="...">
+                <img :src="testimonial.image" class="card-img-top" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{testimonial.name}}</h5>
                     <p class="card-text">{{testimonial.message}}</p>
