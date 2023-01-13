@@ -106,8 +106,7 @@ export default {
                 id:6,
                 description:"Flip Card",
                 image:"https://i.postimg.cc/MG6pgg08/Screenshot-20230113-113432.png",
-                github: "https://github.com/giftnkz6/Week4flipcard.git
-                ",
+                github: "https://github.com/giftnkz6/Week4flipcard.git",
                 netlify: "https://flip-card-4.netlify.app"
             }
         ]

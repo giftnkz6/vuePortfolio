@@ -84,6 +84,9 @@
     animation-iteration-count: infinite;
     /* background-color: white; */
 }
+h1{
+    color: orange;
+}
 p{
     color: purple;
 }

@@ -12,7 +12,7 @@
     }
 </script>
 
-<style scoped>
+<!-- <style scoped>
     address{
         color: white;
     }
@@ -69,4 +69,4 @@
     }
 }
 }
-</style>
+</style> -->

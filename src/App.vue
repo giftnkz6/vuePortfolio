@@ -26,10 +26,10 @@
   text-align: center;
   color: #2c3e50;
   overflow: hidden;
-  background-image: url("https://i.postimg.cc/GtbPbhZS/Background-image.jpg");
+  /* background-image: url("https://i.postimg.cc/GtbPbhZS/Background-image.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: black; */
+  /* background-color: #CBC3E3; */
 }
 *,::after,::before{
     padding: 0;
