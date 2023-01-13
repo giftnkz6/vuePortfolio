@@ -75,13 +75,6 @@ export default {
             }],
             projects:[
             {
-                id:1,
-                description:"E-commerce",
-                image:"https://i.postimg.cc/G3NksBKn/Screenshot-20230112-101713.png",
-                github: "https://github.com/giftnkz6/E-Commerce.git",
-                netlify: "https://giftsneakerhub.netlify.app"
-            },
-            {
                 id:2,
                 description:"Calculator",
                 image:"https://i.postimg.cc/MGm0LR4f/Screenshot-20230112-112156.png",
@@ -95,25 +88,28 @@ export default {
                 github: "https://github.com/giftnkz6/portfolio.git",
                 netlify: "https://gift-portfolio.netlify.app"
             },
-            // {
-            //     id:4,
-            //     description:"",
-            //     image:""
-            // },
-            // {
-            //     id:5,
-            //     description:"",
-            //     image:"",
-            //     github: "",
-            //     netlify: ""
-            // },
-            // {
-            //     id:6,
-            //     description:"",
-            //     image:"",
-            //     github: "",
-            //     netlify: ""
-            // }
+            {
+                id:4,
+                description:"Counting Characters",
+                image:"https://i.postimg.cc/7LqY2jbW/Screenshot-20230113-105901.png",
+                github: "https://github.com/giftnkz6/Second-Group-App.git",
+                netlify: "https://second-group-app.netlify.app"
+            },
+            {
+                id:5,
+                description:"E-commerce-Exercise",
+                image:"https://i.postimg.cc/SRKjB3cP/Screenshot-20230113-111903.png",
+                github: "https://github.com/giftnkz6/E-commerce-Exercise.git",
+                netlify: "https://giftecommerce.netlify.app"
+            },
+            {
+                id:6,
+                description:"Flip Card",
+                image:"https://i.postimg.cc/MG6pgg08/Screenshot-20230113-113432.png",
+                github: "https://github.com/giftnkz6/Week4flipcard.git
+                ",
+                netlify: "https://flip-card-4.netlify.app"
+            }
         ]
         }
     }
