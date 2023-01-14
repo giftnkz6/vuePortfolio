@@ -12,7 +12,6 @@
         </div>
     </div> -->
     <section class="container" id="home">
-            <h2 class="scroll display-2" id="home-heading">Home</h2>
             <div class="row">
                 <div class="container col" id="home-text">
                     <h2 class="portfolio-h2">WELCOME TO MY PORTFOLIO</h2>

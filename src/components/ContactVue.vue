@@ -19,7 +19,7 @@
                         <label for="floatingInput">Enter your email</label>
                     </div>
                     <div class="form-floating mb-4">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
                         <label for="floatingTextarea">Write me a message</label>
                     </div>
                     <div class="mb-4">
@@ -112,7 +112,7 @@
 @media screen and (max-width: 300px) {
     .row {
 
-        height: 80vh;
+        height: 100vh;
 
     }
 

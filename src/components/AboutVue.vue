@@ -1,6 +1,6 @@
 <template>
     <section class="container" id="about">
-            <h2 class="scroll display-2">About</h2>
+            <h1 class="scroll display-2">About Me</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
@@ -48,8 +48,12 @@ export default {
     width: 22em;
     box-shadow: 0 0 25px white;
 }
+h1{
+    color: black;
+}
 #about h2{
     color: blueviolet;
+    text-shadow: 2px 1px white;
 }
 #about-container .image-about{
     width: 20rem
@@ -60,6 +64,7 @@ export default {
     box-shadow: 0 0 10px #c1c1c1;
     margin-top: 25%;
     /* background-color: azure; */
+    background-color: yellow;
 }
 
 #about-text p{

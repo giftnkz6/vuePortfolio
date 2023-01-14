@@ -17,56 +17,9 @@ export default {
 </script>
 
 <style>
-    /* .wrapper .row .col ul li{
-        margin: .5rem;
-        font-size: larger;
-        margin-left: 8rem;
-    }
-    ul li #instagram{
-    color: orangered;
-    }
-    ul li #twitter{
-    color:aqua;
-    } */
-    
-    /* @media screen and (max-width: 390px) {
-        .wrapper .row .col ul li{
-        margin: 5px;
-        font-size: large;
-        margin-left: 4rem;
-    }
-} */
-
-/* .wrapper{
-    background-color: white;
-    position: absolute;
-    width: 100%;
-}
-.wrapper p{
-    font-weight: bold;
-}
-.wrapper ul li{
-    display: inline;
-    margin: 2%;
-}
-.wrapper .fa-brands{
-    font-size: 25px;
-}
-.wrapper ul li #linkedin{
-    color: blue;
-}
-.wrapper ul li #facebook{
-    color: blue;
-}
-.wrapper ul li #instagram{
-    color: orangered;
-}
-.wrapper ul li #twitter{
-    color:aqua;
-} */
 
 footer{
-    background-color: white;
+    background-color: yellow;
     position: absolute;
     width: 100%;
 }

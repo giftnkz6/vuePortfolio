@@ -70,6 +70,7 @@ import HomeVue from '@/components/HomeVue.vue';
     /* animation-delay: 2s; */
     animation-iteration-count: 1;
     /* background-color: #fff; */
+    background-color: yellow;
 }
 #home #home-text p{
     color: black;
