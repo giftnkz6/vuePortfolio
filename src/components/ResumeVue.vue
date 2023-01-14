@@ -1,4 +1,5 @@
 <template>
+<div class="contain">
     <div>
         <h1>My Resume</h1>
         <div v-for="info in resume" key="info">
@@ -35,6 +36,7 @@
 
             </div>
         </section>
+</div>
 </template>
 
 <script>
@@ -63,6 +65,10 @@
 </script>
 
 <style scoped>
+.contain{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
     .resume-wrapper{
     text-align: center;
     border-style: dashed;
@@ -92,11 +98,12 @@ p{
 }
 #skills{
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 #skills .container {
-    width: 40%;
+    width: 80%;
     background-color: white;
+    
 }
 .skills{
     color: white;
@@ -107,5 +114,15 @@ p{
     }
     
 
+}
+@media screen and (max-width: 800px){
+    .contain{
+        grid-template-columns: 2fr;
+    }
+    
+
+}
+h1{
+    text-align: center;
 }
 </style>
