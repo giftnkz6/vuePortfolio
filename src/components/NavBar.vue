@@ -30,8 +30,9 @@
 </script>
 <style scoped>
     nav{
-        /* background-color: whitesmoke; */
-        background-color: yellow;
+        background-color: whitesmoke;
+        
+        
     }
     a{
         color: blueviolet;
@@ -53,6 +54,7 @@
     z-index: 3;
     background-color: white;
     background-color: yellow;
+    background-color:#FFB6C1;
 }
 
 .navbar ul{

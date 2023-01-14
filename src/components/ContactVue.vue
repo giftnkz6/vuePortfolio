@@ -1,11 +1,10 @@
 <template>
-    <h1 class="scroll display-2">GET IN TOUCH</h1>
 
     <div class="container w-50">
         <div class="row">
             <div id="form" class="container justify-content-center">
                 <form class="form container mt-3" action="https://formspree.io/f/mrgdkjgy" method="POST">
-                    <!-- <h1>Contact Me</h1> -->
+                    <h1>Contact Me</h1>
                     <div class="form-floating mb-4">
                         <input type="text" class="form-control" name="name" placeholder="Enter your name" id="floatingInput" required>
                         <label for="floatingInput">Enter your name</label>
@@ -112,7 +111,7 @@
 @media screen and (max-width: 300px) {
     .row {
 
-        height: 100vh;
+        height: 80vh;
 
     }
 

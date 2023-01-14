@@ -31,6 +31,9 @@
   background-size: cover;
   /* background-color: #CBC3E3; */
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 *,::after,::before{
     padding: 0;
     margin: 0;
@@ -57,5 +60,11 @@ nav a.router-link-exact-active {
   height:fit-content;
   overflow: hidden;
   margin-top: 1.7rem;
+}
+
+h1{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 1px white;
 }
 </style>

@@ -69,12 +69,13 @@ import HomeVue from '@/components/HomeVue.vue';
     animation-duration: 4s;
     /* animation-delay: 2s; */
     animation-iteration-count: 1;
-    /* background-color: #fff; */
-    background-color: yellow;
+    background-color: #fff;
+    /* background-color: yellow; */
 }
 #home #home-text p{
     color: black;
     font-size: large;
+    text-align: left;
 }
 /* #home-text{
     width: 40vw;
@@ -97,7 +98,7 @@ import HomeVue from '@/components/HomeVue.vue';
     opacity: 0;
     animation-name: img-animation;
     animation-duration: 4s;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     

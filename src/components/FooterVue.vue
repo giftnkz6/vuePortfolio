@@ -22,6 +22,7 @@ footer{
     background-color: yellow;
     position: absolute;
     width: 100%;
+    background-color:#FFB6C1;
 }
 footer p{
     font-weight: bold;

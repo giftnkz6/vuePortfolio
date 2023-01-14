@@ -66,7 +66,7 @@
         margin: auto;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        height: 515px;
+        height: 545px;
         box-shadow: 0 0 25px purple;
     }
     

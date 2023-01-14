@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="display-1">RESUME</h1>
+        <h1>My Resume</h1>
         <div v-for="info in resume" key="info">
             <div class="resume-wrapper">
                 <p>{{ info.information }}</p>
@@ -8,7 +8,7 @@
         </div>
     </div>
     <section id="skills" class="container-fluid rounded-4">
-            <h2 class="scroll display-2">Skills</h2>
+            <h1 class="skills">My Skills</h1>
             <div id="contain" class="container ">
                 <p>HTML</p>
                 <div class="progress">
@@ -82,13 +82,13 @@
     animation-name: color-anim;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    /* background-color: white; */
+    background-color: white;
 }
-h1{
-    color: orange;
-}
+/* h1{
+    color: white;
+} */
 p{
-    color: purple;
+    color: black;
 }
 #skills{
     margin-top: 5%;
@@ -97,6 +97,9 @@ p{
 #skills .container {
     width: 40%;
     background-color: white;
+}
+.skills{
+    color: white;
 }
 @media screen and (max-width: 680px){
     #skills .container{

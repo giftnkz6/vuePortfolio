@@ -1,6 +1,6 @@
 <template>
     <section class="container" id="about">
-            <h1 class="scroll display-2">About Me</h1>
+            <h1>About Me</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
@@ -64,14 +64,13 @@ h1{
     box-shadow: 0 0 10px #c1c1c1;
     margin-top: 25%;
     /* background-color: azure; */
-    background-color: yellow;
+    background-color: #fff;
 }
 
 #about-text p{
     color: white;
     font-size: large;
     color: black;
-    color: orangered;
 }
 #about-text h3{
     color: blueviolet;

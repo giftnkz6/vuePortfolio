@@ -15,9 +15,8 @@
             <div class="row">
                 <div class="container col" id="home-text">
                     <h2 class="portfolio-h2">WELCOME TO MY PORTFOLIO</h2>
-                    <p>I am an aspiring software developer and I love reading books.<br>
-                        My hobbies are playing and watching soccer. 
-
+                    <p>My name is Gift I'm a software developer, I build cool and awesome websites.
+                        I'm passionate about coding and anything related to tech.
                     </p>
                 </div>
                 <div class="col-md-8 m-auto" id="home-animation">

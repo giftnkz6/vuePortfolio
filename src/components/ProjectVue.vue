@@ -1,29 +1,5 @@
 <template>
     <h1>My Projects</h1>
-     <!-- <div class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-interval="false">
-            <div class="carousel-inner">
-                <div v-for="project in projects" key="project" class="carousel-item active">
-                    <div class="card" style="width: 18rem;">
-                        <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ project.description }}</h5>
-                            <a :href="project.github" class="btn btn-primary">Github</a><br><br>
-                            <a :href="project.netlify" class="btn btn-primary">Netlify</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>    
-    </div> -->
     <div class="container">
       <div id="carouselExampleControls" class="carousel slide" data-interval="false">
         <div class="carousel-inner">
@@ -133,13 +109,14 @@ export default {
         margin-top: 2rem;
         margin-bottom: 5rem;
         gap: 1rem;
+        box-shadow: 0 0 25px purple;
     }
     /* Carousel */
     .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='purple' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
     }
 
     .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='purple' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     }
 </style>
