@@ -71,6 +71,7 @@ h1{
     color: white;
     font-size: large;
     color: black;
+    color: orangered;
 }
 #about-text h3{
     color: blueviolet;
