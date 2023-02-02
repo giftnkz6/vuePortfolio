@@ -65,10 +65,10 @@
 </script>
 
 <style scoped>
-.contain{
+/* .contain{
     display: grid;
     grid-template-columns: 4fr 4fr;
-}
+} */
     .resume-wrapper{
     text-align: center;
     border-style: dashed;
@@ -101,7 +101,7 @@ p{
     margin-bottom: 3%;
 }
 #skills .container {
-    width: 80%;
+    width: 40%;
     background-color: white;
     
 }
