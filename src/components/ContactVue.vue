@@ -109,17 +109,17 @@
     }
 }
 @media screen and (max-width: 300px) {
-    .row {
+    /* .row {
 
         height: 80vh;
 
-    }
+    } */
 
     #form{
-        min-width: 14rem;
-        position: absolute;
-        left: 0%; 
-        margin: auto;
+        min-width: 12rem;
+        /* position: absolute; */
+        /* left: 0%;  */
+        margin-right: 3rem;
 
     }
 }

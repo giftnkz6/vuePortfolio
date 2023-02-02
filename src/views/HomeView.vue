@@ -97,8 +97,8 @@ import HomeVue from '@/components/HomeVue.vue';
     position: relative;
     opacity: 0;
     animation-name: img-animation;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 6s;
+    animation-delay: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     
