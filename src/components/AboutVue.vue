@@ -17,7 +17,8 @@
                             <p>My name is Gift Mahlangu, I am an aspiring software developer.
                                 I am currently enrolled in a 1 year program at Life Choices 
                                 Academy. I am passionate about tech and coding and I enjoy playing
-                                soccer and video games and I am a kind and respectful person.  
+                                soccer and video games and I am a kind and respectful person.<br>
+                                date of birth : 11-03-1997
                             </p>
                         </div>
                     </div>

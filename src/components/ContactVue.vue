@@ -26,18 +26,17 @@
                     </div>
                 </form>
             </div>
+
+        </div>
+        <div class="details">
+            <h1>Contact Details</h1>
+            <p><i class="fa-solid fa-envelope"></i>Email address: giftnkz6@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>Phone number: 0790299233</p>
+            <p><i class="fa-solid fa-address-book"></i>Address: Kenwyn, Cape Town</p>
+
         </div>
     </div>
         
-    <address>
-            
-        Written by Gift Mahlangu<br>
-        Visit me at:
-        Life Choices<br>
-        314 Imam Haron Road,<br> Lansdowne
-        South Africa
-        <br>
-    </address>
         
 </template>
 
@@ -48,6 +47,10 @@
 </script>
 
 <style scoped>
+p{
+    color: white;
+}
+
     address{
         color: white;
     }
@@ -55,17 +58,21 @@
         height: 12rem
     }
     h1{
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         margin-bottom: 2rem;
         text-shadow: 2px 1px white;
     }
+    .details{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
     #form{
         width: 35rem;
-         /* box-shadow: 0 0 25px purple; */
-        /*margin-top: 2rem;
-        margin-bottom: 2rem;
+         box-shadow: 0 0 25px purple;
+        margin-top: 2rem;
+        /* margin-bottom: 2rem;
         background-color: black; 
-        background-color: white; */
+        background-color: white;  */
     }
 
     /* @media screen and (max-width: 750px) {
