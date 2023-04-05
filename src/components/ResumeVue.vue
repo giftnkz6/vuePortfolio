@@ -65,10 +65,9 @@
 </script>
 
 <style scoped>
-/* .contain{
-    display: grid;
-    grid-template-columns: 4fr 4fr;
-} */
+h1{
+    color: blueviolet;
+}
     .resume-wrapper{
     text-align: center;
     border-style: dashed;

@@ -50,7 +50,7 @@ export default {
     box-shadow: 0 0 25px white;
 }
 h1{
-    color: black;
+    color: blueviolet;
 }
 #about h2{
     color: blueviolet;

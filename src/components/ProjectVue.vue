@@ -8,8 +8,8 @@
                 <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.description }}</h5>
-                    <a :href="project.github" class="btn btn-primary">Github</a><br><br>
-                    <a :href="project.netlify" class="btn btn-primary">Netlify</a>
+                    <a :href="project.github" class="btn btn-primary" target="_blank">Github</a><br><br>
+                    <a :href="project.netlify" class="btn btn-primary" target="_blank">Netlify</a>
                 </div>
             </div>
           </div>
@@ -18,8 +18,8 @@
                 <img :src="project.image" class="d-block w-100" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.description }}</h5>
-                    <a :href="project.github" class="btn btn-primary">Github</a><br><br>
-                    <a :href="project.netlify" class="btn btn-primary">Netlify</a>
+                    <a :href="project.github" class="btn btn-primary" target="_blank">Github</a><br><br>
+                    <a :href="project.netlify" class="btn btn-primary" target="_blank">Netlify</a>
                 </div>
             </div>
           </div>
@@ -103,6 +103,10 @@ export default {
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto; */
         margin: auto;
+    }
+
+    h1{
+        color: blueviolet;
     }
     .card{
         margin: auto;

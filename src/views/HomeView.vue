@@ -17,18 +17,10 @@ import HomeVue from '@/components/HomeVue.vue';
     margin: 0;
     box-sizing: border-box;
 }
-    /* img{
-        width: 20rem;
-        border-radius: 50%;
-        height: 20rem;
-        margin-top: 6rem;
+
+    #home{
+        min-height: 65vh;
     }
-    #home-text{
-        margin-top: 8rem;
-    } */
-    /* h1,h5{
-    
-    } */
     .container1{
         width: 100vw;
         height: 32rem;

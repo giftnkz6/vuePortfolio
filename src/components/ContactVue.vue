@@ -61,6 +61,7 @@ p{
         /* margin-top: 2rem; */
         margin-bottom: 2rem;
         text-shadow: 2px 1px white;
+        color: blueviolet;
     }
     .details{
         margin-top: 3rem;
