@@ -28,9 +28,18 @@
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Warning striped example" style="width: 68%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">63%</div>
                   </div><br>
-                  <p>C++</p>
+                  <p>Vue</p>
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-label="Danger striped example" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">65%</div>
+                  </div><br>
+                  <p>MySQL</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Danger striped example" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">85%</div>
+                  </div><br>
+
+                  <p>Node</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-label="Danger striped example" style="width: 62%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">62%</div>
                   </div><br>
 
 
